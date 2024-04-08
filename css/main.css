@@ -2,3 +2,15 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+.pre-bday-inner{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pre-bday-outer{
+    background-color: rgb(217, 235, 229);
+}
+.pre-bday-row{
+    display: flex;
+    gap: 20px;
+}
