@@ -26,6 +26,36 @@ body {
 }
 .styles{
     font-size: 60px;
+    margin: 100px;
+}
+.sc-rectangle{
+    background-color: #A1FFCE;
+    padding-top: 0px;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+.sc-title{
+    font-weight: 300;
+    font-style: italic; 
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.glyphs{
+    box-sizing: border-box;
+    border-color: #193030;
+    font-size: 60px;
+    border-width: 10px;
+    margin-left: 100px;
+}
+.glyphs span{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
 }
 h1 {
     font-size: 300px;
@@ -39,7 +69,11 @@ ul{
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 70px;
+}
+.type-row{
+    display: flex;
+    justify-content: space-between;
 }
 .thin{
     font-family: "proxima-nova", sans-serif;
@@ -72,10 +106,10 @@ main {
     color: #193030;
 }
 .regular-oblique{
-    font-family: "proxima-nova", sans-serif;
     font-weight: 400;
     font-style: italic;
     color: #06d6a0;
+    
 }
 .medium{
     font-family: "proxima-nova", sans-serif;
