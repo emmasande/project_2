@@ -6,31 +6,118 @@ body {
     background-color: #e8eef0;
 
 }
-.top-gradient{
-    background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
-}
-h1 {
-    font-size: 150px;
-    font-family: "proxima-nova", sans-serif;
+.title-proxima{
     font-weight: 900;
     font-style: normal;
-    color: #e8eef0;
-    margin-bottom: 0px;
-    padding-left: 50px;
+    margin: 60px, 60px, 60px, 0px;
 }
 .title-nova{
-    font-size: 150PX;
+    font-size: 300PX;
     font-family: "proxima-nova", sans-serif;
     font-weight: 100;
     font-style: normal;
-    margin-top: 0px;
+    line-height: 150px;
+    padding-bottom: 60px;
+
+}
+.top-gradient{
+    background: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
+    margin: 0px;
+}
+.style-list{
+    font-size: 100px;
+}
+h1 {
+    font-size: 300px;
+    font-family: "proxima-nova", sans-serif;
+    color: #e8eef0;
+    margin: 0px;
 }
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
-
+.thin{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.thin-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.light{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.light-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.regular{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.regular-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.medium{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.medium-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.semibold{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.semibold-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.bold{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.bold-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.extrabold{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.extrabold-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+.black{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.black-oblique{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
 section {
     margin-bottom: 0px;
 }
@@ -67,4 +154,13 @@ section {
 h3{
     font-size: 24px;
     margin-bottom: 10px;
+}
+.description{
+    color: #151a27;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.style-list{
+    font-size: 150px;
 }
