@@ -3,7 +3,16 @@ body {
     font-family: 'Proxima Nova', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fffdd1;
+    background-color: #fffef2;
+
+}
+h2{
+    font-weight: 300;
+    font-style: italic; 
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 100px;
+    margin-bottom: 30px;
 
 }
 .title-proxima{
@@ -21,7 +30,7 @@ body {
 
 }
 .top-gradient{
-    background: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
+    background: linear-gradient(#073d4e, #118ab2);
     margin: 0px;
 }
 .styles{
@@ -31,25 +40,27 @@ body {
     margin-right: auto;
 }
 .sc-rectangle{
-    background-color: #A1FFCE;
+    background: linear-gradient(#06d6a0, #A1ffce);
     padding-top: 0px;
     margin: 0px;
     padding-bottom: 100px;
 }
-.sc-title{
-    font-weight: 300;
-    font-style: italic; 
-    font-size: 30px;
-    margin: 0px;
+.characters{
+    font-size: 95px;
+    font-weight: 600;
     margin-left: 100px;
-    margin-bottom: 30px;
+    margin-right: 100px;
+}
+.cs-rectangle{
+    background: linear-gradient(#A1ffce, #ddffa1);
+    padding-bottom: 100px;
 }
 .glyphs{
     box-sizing: border-box;
     border-color: #193030;
-    font-size: 60px;
     border-width: 10px;
     margin-left: 100px;
+    margin-right: 100px;
 }
 .glyphs span{
     display: inline-flex;
@@ -58,17 +69,23 @@ body {
     border: 1px solid black;
     align-items: center;
     justify-content: center;
+    font-size: 60px;
 }
 h1 {
     font-size: 300px;
     font-family: "proxima-nova", sans-serif;
     color: #e8eef0;
-    margin: 0px;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 ul{
     list-style: none;
 }
-main {
+.des-box{
+    background: #118ab2;
+}
+.description {
     max-width: 800px;
     margin: 0 auto;
     padding: 70px;
@@ -87,7 +104,7 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 100;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 .light{
     font-family: "proxima-nova", sans-serif;
@@ -99,7 +116,7 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 300;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 .regular{
     font-family: "proxima-nova", sans-serif;
@@ -110,7 +127,7 @@ main {
 .regular-oblique{
     font-weight: 400;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
     
 }
 .medium{
@@ -123,7 +140,7 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 500;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 .semibold{
     font-family: "proxima-nova", sans-serif;
@@ -135,7 +152,7 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 600;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 .bold{
     font-family: "proxima-nova", sans-serif;
@@ -147,7 +164,7 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 .extrabold{
     font-family: "proxima-nova", sans-serif;
@@ -159,7 +176,7 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 800;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 .black{
     font-family: "proxima-nova", sans-serif;
@@ -171,14 +188,14 @@ main {
     font-family: "proxima-nova", sans-serif;
     font-weight: 900;
     font-style: italic;
-    color: #06d6a0;
+    color: #f6fffd;
 }
 h3{
     font-size: 24px;
     margin-bottom: 10px;
 }
 .description{
-    color: #151a27;
+    color: #fafcff;
     font-family: "proxima-nova", sans-serif;
     font-weight: 100;
     font-style: italic;
@@ -192,5 +209,5 @@ h3{
     max-width: 100%;
     height: 700px;
     color: #06d6a0;
-    background-image: linear-gradient(0.2521943746516264deg, #A1FFCE, #fffdd1);;
+    background: linear-gradient(#118ab2, #06d6a0);
 }
